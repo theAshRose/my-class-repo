@@ -12,15 +12,16 @@ ul {
   color: #ffffff;
 }
 
+/* List items in navigation bar */
 li {
-  display:inline-block;
+  /* TODO: Add your code here */
   list-style-type: none;
   font-size: 40px;
 }
 
 /* Boxes */
 img {
-  display:block;
+  /* TODO: Add your code here */
   margin: 0 auto;
 }
 
@@ -38,5 +39,6 @@ img {
 
 /* Box 3 */
 #image-3 {
-  display: block;
+  /* TODO: Add your code here */
+  display: none;
 }
