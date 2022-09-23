@@ -19,8 +19,7 @@ header {
 }
 
 /* 
-What happens when we set the display property to flex? 
-TODO: Write your answer here 
+Turns element into flexbox, defaulting to row.
 */
 nav {
   display: flex;
@@ -35,8 +34,7 @@ nav a {
 }
 
 /* 
-What is the flex-wrap property? 
-TODO: Write your answer here 
+Telling the main element to columnize in response to screen shrinking
 */
 main {
   display: flex;
@@ -60,7 +58,8 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+TODO: defines spacing of elements of class in flex container, along main-axis.
+it ORIENTS the flex container to the designated position relative to element
 */
 .products {
   flex: 4;
@@ -74,7 +73,8 @@ TODO: Write your answer here
 /* 
 What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: Flex property is shorthand property for flexbox, which includes flex-grow, shrink and basis.
+Here it is defining the basis by 400px, which means it will start 400px, and shrink to fit space being min-content sized. 
 */
 .card {
   border-style: solid;
@@ -99,7 +99,7 @@ TODO: Write your answer here
 /* 
 What does the flex-direction property define?
 What is it doing here? 
-TODO: Write your answer here 
+It changes the default flex direction of row to column in this instance when the screen size gets below 768px
 */
 @media screen and (max-width: 768px) {
   main,
